@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE02D33D1BDC9B450040CAEB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE02D33C1BDC9B450040CAEB /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		DE02D3411BDC9D870040CAEB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE02D3401BDC9D870040CAEB /* FirstViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DE02D3431BDC9D980040CAEB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE02D3421BDC9D980040CAEB /* SecondViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DE88B9C71BDBB3C000E0A29C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88B9C61BDBB3C000E0A29C /* AppDelegate.swift */; };
+		DE88B9C91BDBB3C000E0A29C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88B9C81BDBB3C000E0A29C /* ViewController.swift */; };
+		DE88B9CC1BDBB3C000E0A29C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE88B9CA1BDBB3C000E0A29C /* Main.storyboard */; };
+		DE88B9CE1BDBB3C000E0A29C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE88B9CD1BDBB3C000E0A29C /* Assets.xcassets */; };
+		DE88B9D11BDBB3C000E0A29C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE88B9CF1BDBB3C000E0A29C /* LaunchScreen.storyboard */; };
+		DE88B9DC1BDBB3C100E0A29C /* Bridgr_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88B9DB1BDBB3C100E0A29C /* Bridgr_ControlTests.swift */; };
+		DE88B9E71BDBB3C100E0A29C /* Bridgr_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE88B9E61BDBB3C100E0A29C /* Bridgr_ControlUITests.swift */; };
+		DE88B9F51BDBB53700E0A29C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE88B9F41BDBB53700E0A29C /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE88B9D81BDBB3C100E0A29C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE88B9BB1BDBB3C000E0A29C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE88B9C21BDBB3C000E0A29C;
+			remoteInfo = "Bridgr Control";
+		};
+		DE88B9E31BDBB3C100E0A29C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE88B9BB1BDBB3C000E0A29C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE88B9C21BDBB3C000E0A29C;
+			remoteInfo = "Bridgr Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE02D33C1BDC9B450040CAEB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DE02D3401BDC9D870040CAEB /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DE02D3421BDC9D980040CAEB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DE88B9C31BDBB3C000E0A29C /* Bridgr Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bridgr Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE88B9C61BDBB3C000E0A29C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE88B9C81BDBB3C000E0A29C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE88B9CB1BDBB3C000E0A29C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE88B9CD1BDBB3C000E0A29C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE88B9D01BDBB3C000E0A29C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE88B9D21BDBB3C000E0A29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE88B9D71BDBB3C100E0A29C /* Bridgr ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bridgr ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE88B9DB1BDBB3C100E0A29C /* Bridgr_ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridgr_ControlTests.swift; sourceTree = "<group>"; };
+		DE88B9DD1BDBB3C100E0A29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE88B9E21BDBB3C100E0A29C /* Bridgr ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bridgr ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE88B9E61BDBB3C100E0A29C /* Bridgr_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridgr_ControlUITests.swift; sourceTree = "<group>"; };
+		DE88B9E81BDBB3C100E0A29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE88B9F41BDBB53700E0A29C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE88B9C01BDBB3C000E0A29C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88B9D41BDBB3C100E0A29C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88B9DF1BDBB3C100E0A29C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE88B9BA1BDBB3C000E0A29C = {
+			isa = PBXGroup;
+			children = (
+				DE88B9C51BDBB3C000E0A29C /* Bridgr Control */,
+				DE88B9DA1BDBB3C100E0A29C /* Bridgr ControlTests */,
+				DE88B9E51BDBB3C100E0A29C /* Bridgr ControlUITests */,
+				DE88B9C41BDBB3C000E0A29C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE88B9C41BDBB3C000E0A29C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE88B9C31BDBB3C000E0A29C /* Bridgr Control.app */,
+				DE88B9D71BDBB3C100E0A29C /* Bridgr ControlTests.xctest */,
+				DE88B9E21BDBB3C100E0A29C /* Bridgr ControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE88B9C51BDBB3C000E0A29C /* Bridgr Control */ = {
+			isa = PBXGroup;
+			children = (
+				DE88B9C61BDBB3C000E0A29C /* AppDelegate.swift */,
+				DE88B9C81BDBB3C000E0A29C /* ViewController.swift */,
+				DE02D3401BDC9D870040CAEB /* FirstViewController.swift */,
+				DE02D3421BDC9D980040CAEB /* SecondViewController.swift */,
+				DE02D33C1BDC9B450040CAEB /* Constants.swift */,
+				DE88B9CA1BDBB3C000E0A29C /* Main.storyboard */,
+				DE88B9CD1BDBB3C000E0A29C /* Assets.xcassets */,
+				DE88B9CF1BDBB3C000E0A29C /* LaunchScreen.storyboard */,
+				DE88B9D21BDBB3C000E0A29C /* Info.plist */,
+				DE88B9F41BDBB53700E0A29C /* Settings.bundle */,
+			);
+			path = "Bridgr Control";
+			sourceTree = "<group>";
+		};
+		DE88B9DA1BDBB3C100E0A29C /* Bridgr ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE88B9DB1BDBB3C100E0A29C /* Bridgr_ControlTests.swift */,
+				DE88B9DD1BDBB3C100E0A29C /* Info.plist */,
+			);
+			path = "Bridgr ControlTests";
+			sourceTree = "<group>";
+		};
+		DE88B9E51BDBB3C100E0A29C /* Bridgr ControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE88B9E61BDBB3C100E0A29C /* Bridgr_ControlUITests.swift */,
+				DE88B9E81BDBB3C100E0A29C /* Info.plist */,
+			);
+			path = "Bridgr ControlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE88B9C21BDBB3C000E0A29C /* Bridgr Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE88B9EB1BDBB3C100E0A29C /* Build configuration list for PBXNativeTarget "Bridgr Control" */;
+			buildPhases = (
+				DE88B9BF1BDBB3C000E0A29C /* Sources */,
+				DE88B9C01BDBB3C000E0A29C /* Frameworks */,
+				DE88B9C11BDBB3C000E0A29C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bridgr Control";
+			productName = "Bridgr Control";
+			productReference = DE88B9C31BDBB3C000E0A29C /* Bridgr Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE88B9D61BDBB3C100E0A29C /* Bridgr ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE88B9EE1BDBB3C100E0A29C /* Build configuration list for PBXNativeTarget "Bridgr ControlTests" */;
+			buildPhases = (
+				DE88B9D31BDBB3C100E0A29C /* Sources */,
+				DE88B9D41BDBB3C100E0A29C /* Frameworks */,
+				DE88B9D51BDBB3C100E0A29C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE88B9D91BDBB3C100E0A29C /* PBXTargetDependency */,
+			);
+			name = "Bridgr ControlTests";
+			productName = "Bridgr ControlTests";
+			productReference = DE88B9D71BDBB3C100E0A29C /* Bridgr ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE88B9E11BDBB3C100E0A29C /* Bridgr ControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE88B9F11BDBB3C100E0A29C /* Build configuration list for PBXNativeTarget "Bridgr ControlUITests" */;
+			buildPhases = (
+				DE88B9DE1BDBB3C100E0A29C /* Sources */,
+				DE88B9DF1BDBB3C100E0A29C /* Frameworks */,
+				DE88B9E01BDBB3C100E0A29C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE88B9E41BDBB3C100E0A29C /* PBXTargetDependency */,
+			);
+			name = "Bridgr ControlUITests";
+			productName = "Bridgr ControlUITests";
+			productReference = DE88B9E21BDBB3C100E0A29C /* Bridgr ControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE88B9BB1BDBB3C000E0A29C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "张培栋";
+				TargetAttributes = {
+					DE88B9C21BDBB3C000E0A29C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					DE88B9D61BDBB3C100E0A29C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DE88B9C21BDBB3C000E0A29C;
+					};
+					DE88B9E11BDBB3C100E0A29C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DE88B9C21BDBB3C000E0A29C;
+					};
+				};
+			};
+			buildConfigurationList = DE88B9BE1BDBB3C000E0A29C /* Build configuration list for PBXProject "Bridgr Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE88B9BA1BDBB3C000E0A29C;
+			productRefGroup = DE88B9C41BDBB3C000E0A29C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE88B9C21BDBB3C000E0A29C /* Bridgr Control */,
+				DE88B9D61BDBB3C100E0A29C /* Bridgr ControlTests */,
+				DE88B9E11BDBB3C100E0A29C /* Bridgr ControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE88B9C11BDBB3C000E0A29C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE88B9F51BDBB53700E0A29C /* Settings.bundle in Resources */,
+				DE88B9D11BDBB3C000E0A29C /* LaunchScreen.storyboard in Resources */,
+				DE88B9CE1BDBB3C000E0A29C /* Assets.xcassets in Resources */,
+				DE88B9CC1BDBB3C000E0A29C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88B9D51BDBB3C100E0A29C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88B9E01BDBB3C100E0A29C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE88B9BF1BDBB3C000E0A29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE88B9C91BDBB3C000E0A29C /* ViewController.swift in Sources */,
+				DE88B9C71BDBB3C000E0A29C /* AppDelegate.swift in Sources */,
+				DE02D33D1BDC9B450040CAEB /* Constants.swift in Sources */,
+				DE02D3431BDC9D980040CAEB /* SecondViewController.swift in Sources */,
+				DE02D3411BDC9D870040CAEB /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88B9D31BDBB3C100E0A29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE88B9DC1BDBB3C100E0A29C /* Bridgr_ControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88B9DE1BDBB3C100E0A29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE88B9E71BDBB3C100E0A29C /* Bridgr_ControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE88B9D91BDBB3C100E0A29C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE88B9C21BDBB3C000E0A29C /* Bridgr Control */;
+			targetProxy = DE88B9D81BDBB3C100E0A29C /* PBXContainerItemProxy */;
+		};
+		DE88B9E41BDBB3C100E0A29C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE88B9C21BDBB3C000E0A29C /* Bridgr Control */;
+			targetProxy = DE88B9E31BDBB3C100E0A29C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE88B9CA1BDBB3C000E0A29C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE88B9CB1BDBB3C000E0A29C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE88B9CF1BDBB3C000E0A29C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE88B9D01BDBB3C000E0A29C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE88B9E91BDBB3C100E0A29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE88B9EA1BDBB3C100E0A29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE88B9EC1BDBB3C100E0A29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bridgr Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-540480285-qq.com.Bridgr-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE88B9ED1BDBB3C100E0A29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bridgr Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-540480285-qq.com.Bridgr-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE88B9EF1BDBB3C100E0A29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bridgr ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-540480285-qq.com.Bridgr-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bridgr Control.app/Bridgr Control";
+			};
+			name = Debug;
+		};
+		DE88B9F01BDBB3C100E0A29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bridgr ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-540480285-qq.com.Bridgr-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bridgr Control.app/Bridgr Control";
+			};
+			name = Release;
+		};
+		DE88B9F21BDBB3C100E0A29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bridgr ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-540480285-qq.com.Bridgr-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bridgr Control";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DE88B9F31BDBB3C100E0A29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bridgr ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-540480285-qq.com.Bridgr-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bridgr Control";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE88B9BE1BDBB3C000E0A29C /* Build configuration list for PBXProject "Bridgr Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE88B9E91BDBB3C100E0A29C /* Debug */,
+				DE88B9EA1BDBB3C100E0A29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE88B9EB1BDBB3C100E0A29C /* Build configuration list for PBXNativeTarget "Bridgr Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE88B9EC1BDBB3C100E0A29C /* Debug */,
+				DE88B9ED1BDBB3C100E0A29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE88B9EE1BDBB3C100E0A29C /* Build configuration list for PBXNativeTarget "Bridgr ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE88B9EF1BDBB3C100E0A29C /* Debug */,
+				DE88B9F01BDBB3C100E0A29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE88B9F11BDBB3C100E0A29C /* Build configuration list for PBXNativeTarget "Bridgr ControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE88B9F21BDBB3C100E0A29C /* Debug */,
+				DE88B9F31BDBB3C100E0A29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE88B9BB1BDBB3C000E0A29C /* Project object */;
+}

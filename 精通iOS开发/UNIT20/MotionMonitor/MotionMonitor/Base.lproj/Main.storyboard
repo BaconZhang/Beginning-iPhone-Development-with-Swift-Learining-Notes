@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MotionMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Main View">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xap-8D-1pq">
+                                <rect key="frame" x="0.0" y="20" width="600" height="188"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buS-7I-wJF">
+                                <rect key="frame" x="0.0" y="216" width="600" height="188"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZn-ue-DZt">
+                                <rect key="frame" x="0.0" y="412" width="600" height="188"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="AZn-ue-DZt" secondAttribute="trailing" constant="-20" id="7HQ-61-ip3"/>
+                            <constraint firstItem="AZn-ue-DZt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="BrU-Do-2lJ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AZn-ue-DZt" secondAttribute="bottom" id="CAK-RB-Oai"/>
+                            <constraint firstItem="AZn-ue-DZt" firstAttribute="top" secondItem="buS-7I-wJF" secondAttribute="bottom" constant="8" id="F2D-ca-6xB"/>
+                            <constraint firstItem="buS-7I-wJF" firstAttribute="top" secondItem="xap-8D-1pq" secondAttribute="bottom" constant="8" id="HOe-MH-oI2"/>
+                            <constraint firstItem="buS-7I-wJF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="K0l-8a-r4E"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xap-8D-1pq" secondAttribute="trailing" constant="-20" id="M4b-i6-FO8"/>
+                            <constraint firstItem="AZn-ue-DZt" firstAttribute="height" secondItem="xap-8D-1pq" secondAttribute="height" id="Owe-cK-9ad"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="buS-7I-wJF" secondAttribute="trailing" constant="-20" id="T7A-Yq-9b8"/>
+                            <constraint firstItem="xap-8D-1pq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="mwU-gp-DDd"/>
+                            <constraint firstItem="buS-7I-wJF" firstAttribute="height" secondItem="xap-8D-1pq" secondAttribute="height" id="q1C-bB-1zy"/>
+                            <constraint firstItem="xap-8D-1pq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="zbt-w4-b1W"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="accelerometerLabel" destination="buS-7I-wJF" id="f7D-aI-FDZ"/>
+                        <outlet property="attitudeLabel" destination="AZn-ue-DZt" id="bOz-KF-wLe"/>
+                        <outlet property="gyroscopeLabel" destination="xap-8D-1pq" id="7Sa-9o-gPl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="219" y="305"/>
+        </scene>
+    </scenes>
+</document>

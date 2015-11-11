@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Camera" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Main View">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UG7-KZ-9KG">
+                                <rect key="frame" x="242" y="550" width="117" height="30"/>
+                                <state key="normal" title="Pick from Library"/>
+                                <connections>
+                                    <action selector="pickImageFromLibrary:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eyu-hz-W1J"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7GB-jZ-rNe">
+                                <rect key="frame" x="0.0" y="28" width="600" height="464"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXK-Ik-tDl">
+                                <rect key="frame" x="232" y="500" width="137" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="bsN-mo-Aug"/>
+                                </constraints>
+                                <state key="normal" title="New Photo or Video"/>
+                                <connections>
+                                    <action selector="takeNewPhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="58h-dN-sde"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UG7-KZ-9KG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1GJ-EI-sCe"/>
+                            <constraint firstItem="7GB-jZ-rNe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="CI9-tk-Rnx"/>
+                            <constraint firstItem="PXK-Ik-tDl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ire-Zf-j7G"/>
+                            <constraint firstItem="7GB-jZ-rNe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cpL-EK-eXw"/>
+                            <constraint firstItem="7GB-jZ-rNe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fRX-6c-qv0"/>
+                            <constraint firstItem="UG7-KZ-9KG" firstAttribute="top" secondItem="PXK-Ik-tDl" secondAttribute="bottom" constant="20" id="mNq-aK-wXY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UG7-KZ-9KG" secondAttribute="bottom" constant="20" id="wFa-7Y-NlU"/>
+                            <constraint firstItem="PXK-Ik-tDl" firstAttribute="top" secondItem="7GB-jZ-rNe" secondAttribute="bottom" constant="8" id="y0J-1y-dvh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="7GB-jZ-rNe" id="3Bo-lb-65g"/>
+                        <outlet property="takePictureButton" destination="PXK-Ik-tDl" id="Pxv-aU-YXJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="219" y="306"/>
+        </scene>
+    </scenes>
+</document>
